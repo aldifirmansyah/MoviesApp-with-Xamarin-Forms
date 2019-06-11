@@ -1,0 +1,13 @@
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\bin\Debug\netstandard2.0\MoviesApp.deps.json
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\bin\Debug\netstandard2.0\MoviesApp.dll
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\bin\Debug\netstandard2.0\MoviesApp.pdb
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\MoviesApp.csprojAssemblyReference.cache
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\MoviesApp.csproj.CoreCompileInputs.cache
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\MoviesApp.AssemblyInfoInputs.cache
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\MoviesApp.AssemblyInfo.cs
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\MoviesApp.dll
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\MoviesApp.pdb
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\Views\MovieDetailsPage.xaml.g.cs
+C:\Users\aldif\source\repos\MoviesApp\MoviesApp\MoviesApp\obj\Debug\netstandard2.0\XamlC.stamp

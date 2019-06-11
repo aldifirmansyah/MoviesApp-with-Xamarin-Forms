@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="{Binding Title}"
+             Padding="20"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MoviesApp.Views.MovieDetailsPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ActivityIndicator x:Name="loadingIndicator" HeightRequest="30" WidthRequest="30"/>
+            <ScrollView>
+                <StackLayout>
+                <Image Source="{Binding Poster}"/>
+                <Label Text="{Binding Title}" TextColor="Black"/>
+                <Label Text="{Binding Year}" TextColor="Gray"/>
+                <Label Text="{Binding Plot}" TextColor="Black"/>
+            </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

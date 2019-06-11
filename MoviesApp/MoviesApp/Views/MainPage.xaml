@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="Movies"
+             Padding="20"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MoviesApp"
+             x:Class="MoviesApp.MainPage">
+
+    <StackLayout>
+        <SearchBar x:Name="searchBar" Placeholder="Search by title..." HorizontalOptions="Center"/>
+        <Button x:Name="searchButton" Text="Search" Clicked="SearchButton_Clicked"/>
+        <ActivityIndicator x:Name="loadingIndicator" Color="Gray" HeightRequest="30" WidthRequest="30"/>
+        <Label x:Name="errorLabel" Margin="5" HorizontalTextAlignment="Center" IsVisible="False"/>
+        <ListView x:Name="movieListView" HasUnevenRows="True" ItemSelected="MovieListView_ItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="{Binding Poster}" HeightRequest="30" WidthRequest="30"/>
+                            <StackLayout>
+                                <Label Text="{Binding Title}" TextColor="Black"/>
+                                <Label Text="{Binding Year}" TextColor="Gray"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
